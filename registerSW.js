@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/artisanalle-calculateur-pwa/sw.js', { scope: '/artisanalle-calculateur-pwa/' })})}
