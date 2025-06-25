@@ -48,6 +48,7 @@ export default defineConfig({
       }
     })
   ],
+  base: "/artisanalle-calculateur-pwa",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
