@@ -1,5 +1,31 @@
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+artisanalle-calculateur/
+├── public/                  # Static files
+│   ├── icons/               # App icons
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/              # Images, fonts, etc.
+│   │
+│   ├── components/          # Reusable Vue components
+│   │   ├── ui/              # shadcn/ui components
+│   │   └── shared/          # Your custom components
+│   │
+│   ├── db/                  # Dexie.js database setup
+│   │   └── index.js         # Database schema and initialization
+│   │
+│   ├── stores/              # State management (Pinia)
+│   │   └── useAppStore.js
+│   │
+│   ├── views/               # Page components
+│   │   ├── HomeView.vue
+│   │   └── SettingsView.vue
+│   │
+│   ├── App.vue              # Root component
+│   ├── main.js              # App entry point
+│   ├── registerServiceWorker.js
+│   └── router.js            # Vue Router
+│
+├── .env                     # Environment variables
+├── index.html
+├── vite.config.js           # Vite + PWA config
+└── package.json
